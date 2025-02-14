@@ -9,7 +9,7 @@ import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
 
 
 export default defineUserConfig({
-    base: '/asec/',
+    base: '/asec-docs/',
     lang: 'zh-CN',
     title: 'Asec',
     head: [
