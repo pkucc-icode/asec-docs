@@ -8,9 +8,19 @@ export const mySidebar: SidebarMulti = {
             collapsed: false,
             prefix: 'summary/',
             items: [
-                {text: '简介', link: 'intro'},
-                {text: '快速开始', link: 'quick-start'},
-                {text: '为什么选择我们？', link: 'why'},
+                { 
+                    text: '简介', 
+                    link: 'intro',
+                    items: [
+                        { text: '产品介绍', link: 'intro#产品介绍' },
+                        { text: '解决方案', link: 'intro#解决方案' },
+                        { text: '应用场景', link: 'intro#应用场景' },
+                        { text: '团队介绍', link: 'intro#团队介绍' },
+                        { text: '应用成效', link: 'intro#应用成效' },                        
+                    ]
+                },
+                { text: '快速开始', link: 'quick-start' },
+                { text: '为什么选择我们？', link: 'why' },
             ]
         },
         {

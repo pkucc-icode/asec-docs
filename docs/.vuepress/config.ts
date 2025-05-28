@@ -23,6 +23,7 @@ export default defineUserConfig({
             id: 'G-WVH2LQEPKY'
         })
     ],
+
     theme: plumeTheme({
         hostname: 'https://pkucc-icode.github.io/asec-docs/',
         blog: false,
@@ -39,6 +40,7 @@ export default defineUserConfig({
         docsRepo: 'https://github.com/pkucc-icode/asec-docs',
         docsBranch: 'master',
         docsDir: 'docs',
+
         navbarSocialInclude: ['github', 'gitee', 'discord'],
         editLinkText: '在 GitHub 上编辑此页面',
         lastUpdated: false,
