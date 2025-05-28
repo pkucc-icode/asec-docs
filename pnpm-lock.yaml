@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@iconify/json':
-        specifier: ^2.2.282
+        specifier: ^2.2.342
         version: 2.2.342
       '@vueuse/core':
         specifier: ^12.2.0
