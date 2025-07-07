@@ -13,6 +13,8 @@ export default defineUserConfig({
     lang: 'zh-CN',
     title: 'Asec',
     head: [
+        ['meta', { name: 'description', content: 'Asec - 高校网络安全解决方案' }],
+        ['meta', {name:"google-site-verification", content:"MaK7dnjPnE9nVWjEJIJJ7jlFGyG3uq5gWaPyKGFdOd4" }],
         ['link', {rel: 'icon', href: 'https://avatars.githubusercontent.com/u/151118965?s=200&v=4'}]
     ],
     plugins: [
